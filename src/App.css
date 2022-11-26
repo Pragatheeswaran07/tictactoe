@@ -1,0 +1,48 @@
+.app{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width: 100vw;
+  height:100vh;
+}
+body{
+  padding:0;
+  margin:0;
+  background-color: #131A28;
+  
+}
+.box{
+  height:500px;
+  width:500px;
+  display: flex;
+  flex-direction: column;
+  background-color:#131A28 ;
+  border:none;
+  border-radius: 40px;
+  
+}
+.row{
+  flex:33%;
+  display:flex;
+  flex-direction: row;
+  
+
+}
+.square{
+  flex:33%;
+  
+  font-size: 30px;
+  cursor:pointer;
+  display: grid;
+  place-items: center;
+  height:100%;
+  border:1px solid #1cDBf5; 
+  color:#fd810d;
+  border-radius: 25px;
+}
+.head{
+  padding:10px;
+  font-size: 3rem;
+  color:white;
+  text-align: center;
+}
